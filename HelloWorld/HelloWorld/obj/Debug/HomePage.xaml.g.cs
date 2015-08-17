@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace App1.Pages {
+namespace HelloWorld.Pages {
     using System;
     using Xamarin.Forms;
     using Xamarin.Forms.Xaml;
     
     
-    public partial class NewsPage : global::XLabs.Forms.Mvvm.BaseView {
+    public partial class HomePage : global::XLabs.Forms.Mvvm.BaseView {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            this.LoadFromXaml(typeof(NewsPage));
+            this.LoadFromXaml(typeof(HomePage));
         }
     }
 }

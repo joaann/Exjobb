@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="App1.Droid">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="HelloWorld.Droid">
   <uses-sdk android:minSdkVersion="15" />
   <application android:name="mono.android.app.Application" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="App1" android:name="md50170a25da682dd459b9251c65ebe3a7a.MainActivity" />
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="HelloWorld" android:name="md5451828ee107e53f4ce4d931950d8a65c.MainActivity" />
     <activity android:name="md549c661e04c419e5cbd46a152c2669e7f.MediaPickerActivity" />
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="App1.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="HelloWorld.Droid.mono.MonoRuntimeProvider.__mono_init__" />
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
         <action android:name="mono.android.intent.action.SEPPUKU" />
-        <category android:name="mono.android.intent.category.SEPPUKU.App1.Droid" />
+        <category android:name="mono.android.intent.category.SEPPUKU.HelloWorld.Droid" />
       </intent-filter>
     </receiver>
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="App1" android:name="app1.droid.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="HelloWorld" android:name="helloworld.droid.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

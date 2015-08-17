@@ -1,17 +1,16 @@
-﻿using System;
-using App1.Model;
+﻿using HelloWorld.Model;
 using Xamarin.Forms;
 
-namespace App1.ViewModel
+namespace HelloWorld.ViewModel
 {
-    internal class NewsPageViewModel : XLabs.Forms.Mvvm.ViewModel
+    internal class HomePageViewModel : XLabs.Forms.Mvvm.ViewModel
     {
         private Button _btn;
         private Command _myCommand;
         private News _news;
-        private int count = 1;
+        private int _count = 1;
 
-        public NewsPageViewModel()
+        public HomePageViewModel()
         {
             DisplayNews = new News
             {
@@ -53,8 +52,8 @@ namespace App1.ViewModel
 
         public void UpdateString()
         {
-            DisplayNews.Title = "Button Clicked " + count + " times";
-            count++;
+            DisplayNews.Title = "Button Clicked " + _count + " times";
+            _count++;
         }
     }
 }

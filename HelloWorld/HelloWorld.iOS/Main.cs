@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace App1.iOS
+namespace HelloWorld.iOS
 {
     public class Application
     {
