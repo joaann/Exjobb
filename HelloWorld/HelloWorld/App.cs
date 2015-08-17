@@ -1,14 +1,14 @@
-﻿using App1.Pages;
+﻿using HelloWorld.Pages;
 using Xamarin.Forms;
 
-namespace App1
+namespace HelloWorld
 {
     public class App : Application
     {
         public App()
         {
             // The root page of your application
-            MainPage = new NewsPage();
+            MainPage = new HomePage();
         }
 
         protected override void OnStart()

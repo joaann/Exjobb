@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace App1.Pages {
+namespace HelloWorld.Pages {
     using System;
     using Xamarin.Forms;
     using Xamarin.Forms.Xaml;

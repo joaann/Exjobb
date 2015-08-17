@@ -1,7 +1,7 @@
-C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld.Droid\obj\Debug\assemblies\App1.Droid.dll
-C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld.Droid\obj\Debug\assemblies\App1.dll
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld.Droid\obj\Debug\assemblies\HelloWorld.Droid.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld.Droid\obj\Debug\assemblies\ExifLib.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld.Droid\obj\Debug\assemblies\FormsViewGroup.dll
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld.Droid\obj\Debug\assemblies\HelloWorld.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld.Droid\obj\Debug\assemblies\Mono.Android.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld.Droid\obj\Debug\assemblies\Mono.Android.Export.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld.Droid\obj\Debug\assemblies\mscorlib.dll
