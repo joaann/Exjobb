@@ -8,7 +8,6 @@ namespace HelloWorld.ViewModel
         private Button _btn;
         private Command _myCommand;
         private News _news;
-        private int _count = 1;
 
         public HomePageViewModel()
         {
@@ -52,8 +51,7 @@ namespace HelloWorld.ViewModel
 
         public void UpdateString()
         {
-            DisplayNews.Title = "Button Clicked " + _count + " times";
-            _count++;
+            DisplayNews.Title = "Button Clicked ";
         }
     }
 }
