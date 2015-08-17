@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "App1\App1\HelloWorld.csproj", "{2FABDDAD-A847-4F3C-BBA4-0259E09A4C69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld\HelloWorld.csproj", "{2FABDDAD-A847-4F3C-BBA4-0259E09A4C69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.iOS", "App1\App1.iOS\HelloWorld.iOS.csproj", "{AEE6F2B2-97D8-4CE9-853B-70430A617024}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.iOS", "HelloWorld\HelloWorld.iOS\HelloWorld.iOS.csproj", "{AEE6F2B2-97D8-4CE9-853B-70430A617024}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Droid", "App1\App1.Droid\HelloWorld.Droid.csproj", "{277DBA57-897C-456D-9E4E-6F15A4D05635}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Droid", "HelloWorld\HelloWorld.Droid\HelloWorld.Droid.csproj", "{277DBA57-897C-456D-9E4E-6F15A4D05635}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
