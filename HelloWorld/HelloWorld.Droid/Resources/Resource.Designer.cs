@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("HelloWorld.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("App1.Droid.Resource", IsApplication=true)]
 
-namespace HelloWorld.Droid
+namespace App1.Droid
 {
 	
 	
@@ -26,50 +26,50 @@ namespace HelloWorld.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Resource.String.ApplicationName = global::HelloWorld.Droid.Resource.String.ApplicationName;
-			global::Xamarin.Forms.Platform.Resource.String.Hello = global::HelloWorld.Droid.Resource.String.Hello;
-			global::XLabs.Forms.Resource.Color.calendar_active_month_bg = global::HelloWorld.Droid.Resource.Color.calendar_active_month_bg;
-			global::XLabs.Forms.Resource.Color.calendar_bg = global::HelloWorld.Droid.Resource.Color.calendar_bg;
-			global::XLabs.Forms.Resource.Color.calendar_divider = global::HelloWorld.Droid.Resource.Color.calendar_divider;
-			global::XLabs.Forms.Resource.Color.calendar_highlighted_day_bg = global::HelloWorld.Droid.Resource.Color.calendar_highlighted_day_bg;
-			global::XLabs.Forms.Resource.Color.calendar_inactive_month_bg = global::HelloWorld.Droid.Resource.Color.calendar_inactive_month_bg;
-			global::XLabs.Forms.Resource.Color.calendar_selected_day_bg = global::HelloWorld.Droid.Resource.Color.calendar_selected_day_bg;
-			global::XLabs.Forms.Resource.Color.calendar_selected_range_bg = global::HelloWorld.Droid.Resource.Color.calendar_selected_range_bg;
-			global::XLabs.Forms.Resource.Color.calendar_text_active = global::HelloWorld.Droid.Resource.Color.calendar_text_active;
-			global::XLabs.Forms.Resource.Color.calendar_text_inactive = global::HelloWorld.Droid.Resource.Color.calendar_text_inactive;
-			global::XLabs.Forms.Resource.Color.calendar_text_selected = global::HelloWorld.Droid.Resource.Color.calendar_text_selected;
-			global::XLabs.Forms.Resource.Color.calendar_text_selector = global::HelloWorld.Droid.Resource.Color.calendar_text_selector;
-			global::XLabs.Forms.Resource.Color.calendar_text_unselectable = global::HelloWorld.Droid.Resource.Color.calendar_text_unselectable;
-			global::XLabs.Forms.Resource.Dimension.calendar_day_headers_paddingbottom = global::HelloWorld.Droid.Resource.Dimension.calendar_day_headers_paddingbottom;
-			global::XLabs.Forms.Resource.Dimension.calendar_month_title_bottommargin = global::HelloWorld.Droid.Resource.Dimension.calendar_month_title_bottommargin;
-			global::XLabs.Forms.Resource.Dimension.calendar_month_topmargin = global::HelloWorld.Droid.Resource.Dimension.calendar_month_topmargin;
-			global::XLabs.Forms.Resource.Dimension.calendar_text_medium = global::HelloWorld.Droid.Resource.Dimension.calendar_text_medium;
-			global::XLabs.Forms.Resource.Dimension.calendar_text_small = global::HelloWorld.Droid.Resource.Dimension.calendar_text_small;
-			global::XLabs.Forms.Resource.Drawable.ad16 = global::HelloWorld.Droid.Resource.Drawable.ad16;
-			global::XLabs.Forms.Resource.Drawable.calendar_bg_selector = global::HelloWorld.Droid.Resource.Drawable.calendar_bg_selector;
-			global::XLabs.Forms.Resource.Id.calendar_grid = global::HelloWorld.Droid.Resource.Id.calendar_grid;
-			global::XLabs.Forms.Resource.Id.calendar_view = global::HelloWorld.Droid.Resource.Id.calendar_view;
-			global::XLabs.Forms.Resource.Id.left_arrow = global::HelloWorld.Droid.Resource.Id.left_arrow;
-			global::XLabs.Forms.Resource.Id.right_arrow = global::HelloWorld.Droid.Resource.Id.right_arrow;
-			global::XLabs.Forms.Resource.Id.title = global::HelloWorld.Droid.Resource.Id.title;
-			global::XLabs.Forms.Resource.Layout.calendar_pager_layout = global::HelloWorld.Droid.Resource.Layout.calendar_pager_layout;
-			global::XLabs.Forms.Resource.Layout.calendar_picker = global::HelloWorld.Droid.Resource.Layout.calendar_picker;
-			global::XLabs.Forms.Resource.Layout.dialog = global::HelloWorld.Droid.Resource.Layout.dialog;
-			global::XLabs.Forms.Resource.Layout.month = global::HelloWorld.Droid.Resource.Layout.month;
-			global::XLabs.Forms.Resource.Layout.week = global::HelloWorld.Droid.Resource.Layout.week;
-			global::XLabs.Forms.Resource.String.ApplicationName = global::HelloWorld.Droid.Resource.String.ApplicationName;
-			global::XLabs.Forms.Resource.String.Hello = global::HelloWorld.Droid.Resource.String.Hello;
-			global::XLabs.Forms.Resource.String.day_name_format = global::HelloWorld.Droid.Resource.String.day_name_format;
-			global::XLabs.Forms.Resource.String.full_date_format = global::HelloWorld.Droid.Resource.String.full_date_format;
-			global::XLabs.Forms.Resource.String.invalid_date = global::HelloWorld.Droid.Resource.String.invalid_date;
-			global::XLabs.Forms.Resource.String.library_name = global::HelloWorld.Droid.Resource.String.library_name;
-			global::XLabs.Forms.Resource.String.month_name_format = global::HelloWorld.Droid.Resource.String.month_name_format;
-			global::XLabs.Forms.Resource.Style.CalendarCell = global::HelloWorld.Droid.Resource.Style.CalendarCell;
-			global::XLabs.Forms.Resource.Style.CalendarCell_CalendarDate = global::HelloWorld.Droid.Resource.Style.CalendarCell_CalendarDate;
-			global::XLabs.Forms.Resource.Style.CalendarCell_DayHeader = global::HelloWorld.Droid.Resource.Style.CalendarCell_DayHeader;
-			global::XLabs.Forms.Resource.Style.CalendarTitle = global::HelloWorld.Droid.Resource.Style.CalendarTitle;
-			global::XLabs.Platform.Resource.String.ApplicationName = global::HelloWorld.Droid.Resource.String.ApplicationName;
-			global::XLabs.Platform.Resource.String.Hello = global::HelloWorld.Droid.Resource.String.Hello;
+			global::Xamarin.Forms.Platform.Resource.String.ApplicationName = global::App1.Droid.Resource.String.ApplicationName;
+			global::Xamarin.Forms.Platform.Resource.String.Hello = global::App1.Droid.Resource.String.Hello;
+			global::XLabs.Forms.Resource.Color.calendar_active_month_bg = global::App1.Droid.Resource.Color.calendar_active_month_bg;
+			global::XLabs.Forms.Resource.Color.calendar_bg = global::App1.Droid.Resource.Color.calendar_bg;
+			global::XLabs.Forms.Resource.Color.calendar_divider = global::App1.Droid.Resource.Color.calendar_divider;
+			global::XLabs.Forms.Resource.Color.calendar_highlighted_day_bg = global::App1.Droid.Resource.Color.calendar_highlighted_day_bg;
+			global::XLabs.Forms.Resource.Color.calendar_inactive_month_bg = global::App1.Droid.Resource.Color.calendar_inactive_month_bg;
+			global::XLabs.Forms.Resource.Color.calendar_selected_day_bg = global::App1.Droid.Resource.Color.calendar_selected_day_bg;
+			global::XLabs.Forms.Resource.Color.calendar_selected_range_bg = global::App1.Droid.Resource.Color.calendar_selected_range_bg;
+			global::XLabs.Forms.Resource.Color.calendar_text_active = global::App1.Droid.Resource.Color.calendar_text_active;
+			global::XLabs.Forms.Resource.Color.calendar_text_inactive = global::App1.Droid.Resource.Color.calendar_text_inactive;
+			global::XLabs.Forms.Resource.Color.calendar_text_selected = global::App1.Droid.Resource.Color.calendar_text_selected;
+			global::XLabs.Forms.Resource.Color.calendar_text_selector = global::App1.Droid.Resource.Color.calendar_text_selector;
+			global::XLabs.Forms.Resource.Color.calendar_text_unselectable = global::App1.Droid.Resource.Color.calendar_text_unselectable;
+			global::XLabs.Forms.Resource.Dimension.calendar_day_headers_paddingbottom = global::App1.Droid.Resource.Dimension.calendar_day_headers_paddingbottom;
+			global::XLabs.Forms.Resource.Dimension.calendar_month_title_bottommargin = global::App1.Droid.Resource.Dimension.calendar_month_title_bottommargin;
+			global::XLabs.Forms.Resource.Dimension.calendar_month_topmargin = global::App1.Droid.Resource.Dimension.calendar_month_topmargin;
+			global::XLabs.Forms.Resource.Dimension.calendar_text_medium = global::App1.Droid.Resource.Dimension.calendar_text_medium;
+			global::XLabs.Forms.Resource.Dimension.calendar_text_small = global::App1.Droid.Resource.Dimension.calendar_text_small;
+			global::XLabs.Forms.Resource.Drawable.ad16 = global::App1.Droid.Resource.Drawable.ad16;
+			global::XLabs.Forms.Resource.Drawable.calendar_bg_selector = global::App1.Droid.Resource.Drawable.calendar_bg_selector;
+			global::XLabs.Forms.Resource.Id.calendar_grid = global::App1.Droid.Resource.Id.calendar_grid;
+			global::XLabs.Forms.Resource.Id.calendar_view = global::App1.Droid.Resource.Id.calendar_view;
+			global::XLabs.Forms.Resource.Id.left_arrow = global::App1.Droid.Resource.Id.left_arrow;
+			global::XLabs.Forms.Resource.Id.right_arrow = global::App1.Droid.Resource.Id.right_arrow;
+			global::XLabs.Forms.Resource.Id.title = global::App1.Droid.Resource.Id.title;
+			global::XLabs.Forms.Resource.Layout.calendar_pager_layout = global::App1.Droid.Resource.Layout.calendar_pager_layout;
+			global::XLabs.Forms.Resource.Layout.calendar_picker = global::App1.Droid.Resource.Layout.calendar_picker;
+			global::XLabs.Forms.Resource.Layout.dialog = global::App1.Droid.Resource.Layout.dialog;
+			global::XLabs.Forms.Resource.Layout.month = global::App1.Droid.Resource.Layout.month;
+			global::XLabs.Forms.Resource.Layout.week = global::App1.Droid.Resource.Layout.week;
+			global::XLabs.Forms.Resource.String.ApplicationName = global::App1.Droid.Resource.String.ApplicationName;
+			global::XLabs.Forms.Resource.String.Hello = global::App1.Droid.Resource.String.Hello;
+			global::XLabs.Forms.Resource.String.day_name_format = global::App1.Droid.Resource.String.day_name_format;
+			global::XLabs.Forms.Resource.String.full_date_format = global::App1.Droid.Resource.String.full_date_format;
+			global::XLabs.Forms.Resource.String.invalid_date = global::App1.Droid.Resource.String.invalid_date;
+			global::XLabs.Forms.Resource.String.library_name = global::App1.Droid.Resource.String.library_name;
+			global::XLabs.Forms.Resource.String.month_name_format = global::App1.Droid.Resource.String.month_name_format;
+			global::XLabs.Forms.Resource.Style.CalendarCell = global::App1.Droid.Resource.Style.CalendarCell;
+			global::XLabs.Forms.Resource.Style.CalendarCell_CalendarDate = global::App1.Droid.Resource.Style.CalendarCell_CalendarDate;
+			global::XLabs.Forms.Resource.Style.CalendarCell_DayHeader = global::App1.Droid.Resource.Style.CalendarCell_DayHeader;
+			global::XLabs.Forms.Resource.Style.CalendarTitle = global::App1.Droid.Resource.Style.CalendarTitle;
+			global::XLabs.Platform.Resource.String.ApplicationName = global::App1.Droid.Resource.String.ApplicationName;
+			global::XLabs.Platform.Resource.String.Hello = global::App1.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Attribute

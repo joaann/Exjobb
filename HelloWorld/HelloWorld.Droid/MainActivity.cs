@@ -4,9 +4,9 @@ using Android.OS;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
-namespace HelloWorld.Droid
+namespace App1.Droid
 {
-    [Activity(Label = "HelloWorld", Icon = "@drawable/icon", MainLauncher = true,
+    [Activity(Label = "App1", Icon = "@drawable/icon", MainLauncher = true,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : FormsApplicationActivity
     {

@@ -1,7 +1,8 @@
-﻿using HelloWorld.Model;
+﻿using System;
+using App1.Model;
 using Xamarin.Forms;
 
-namespace HelloWorld.ViewModel
+namespace App1.ViewModel
 {
     internal class NewsPageViewModel : XLabs.Forms.Mvvm.ViewModel
     {

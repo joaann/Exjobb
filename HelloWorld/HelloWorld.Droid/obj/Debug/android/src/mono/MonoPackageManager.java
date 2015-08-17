@@ -79,10 +79,10 @@ public class MonoPackageManager {
 
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
-		"HelloWorld.Droid.dll",
+		"App1.Droid.dll",
+		"App1.dll",
 		"ExifLib.dll",
 		"FormsViewGroup.dll",
-		"HelloWorld.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Forms.Core.dll",
 		"Xamarin.Forms.Platform.Android.dll",

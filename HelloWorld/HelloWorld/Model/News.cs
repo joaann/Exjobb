@@ -1,6 +1,6 @@
 ﻿using XLabs.Data;
 
-namespace HelloWorld.Model
+namespace App1.Model
 {
     internal class News : ObservableObject
     {
