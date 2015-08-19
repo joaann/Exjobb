@@ -13,7 +13,7 @@ namespace HelloWorld.ViewModel
         {
             DisplayNews = new News
             {
-                Title = "Hello world"
+                Title = "Hello world!"
             };
 
             MyCommand = new Command(UpdateString);
@@ -51,7 +51,7 @@ namespace HelloWorld.ViewModel
 
         public void UpdateString()
         {
-            DisplayNews.Title = "Button Clicked ";
+            BtnButton.Text = "Button Clicked! ";
         }
     }
 }
