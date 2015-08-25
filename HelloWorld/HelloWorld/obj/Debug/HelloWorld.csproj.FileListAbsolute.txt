@@ -20,7 +20,11 @@ C:\Users\JoakimA\Documents\GitHub\Exjobb\App1\App1\obj\Debug\HelloWorld.csprojRe
 C:\Users\JoakimA\Documents\GitHub\Exjobb\App1\App1\obj\Debug\NewsPage.xaml.g.cs
 C:\Users\JoakimA\Documents\GitHub\Exjobb\App1\App1\obj\Debug\App1.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\App1\App1\obj\Debug\App1.pdb
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\ExifLib.dll
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\Geolocator.Plugin.Abstractions.dll
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\Geolocator.Plugin.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\Xamarin.Forms.Xaml.dll
@@ -29,6 +33,10 @@ C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.F
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.Ioc.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.Platform.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.Serialization.dll
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\Geolocator.Plugin.pdb
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\Geolocator.Plugin.xml
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\Geolocator.Plugin.Abstractions.pdb
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\Geolocator.Plugin.Abstractions.xml
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\Xamarin.Forms.Core.xml
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.Core.xml
@@ -36,9 +44,7 @@ C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.F
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.Ioc.xml
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.Platform.xml
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.Serialization.xml
-C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
-C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\HelloWorld.dll
-C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\obj\Debug\GeolocatorPage.xaml.g.cs
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
-C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\obj\Debug\HomePage.xaml.g.cs
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
