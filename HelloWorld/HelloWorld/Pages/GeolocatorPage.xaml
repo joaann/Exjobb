@@ -7,9 +7,10 @@
     <StackLayout Orientation="Vertical">
       <!--<ActivityIndicator IsEnabled="{Binding LoadingPosition}" IsVisible="{Binding LoadingPosition}"></ActivityIndicator>-->
        <Label Text="{Binding DisplayMainModel.Title}" />
-      <!-- <Button Text="Get Position" Command="{Binding MyCommand}" />-->
         <Entry Text="{Binding DisplayMainModel.Latitude}"/>
         <Entry Text="{Binding DisplayMainModel.Longitude}"/>
         <Entry Text="{Binding DisplayMainModel.Timestamp}"/>
+      <Button Text="{Binding StopBtnButton.Text}" Command="{Binding MyCommand}" />
+      <Button Text="{Binding StartBtnButton.Text}" Command="{Binding StartCommand}" />
     </StackLayout>
 </mvvm:BaseView>

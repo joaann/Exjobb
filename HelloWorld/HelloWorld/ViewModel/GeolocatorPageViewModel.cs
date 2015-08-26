@@ -12,53 +12,57 @@ namespace HelloWorld.ViewModel
 {
     internal class GeolocatorPageViewModel : XLabs.Forms.Mvvm.ViewModel
     {
-        private Button _btn;
+        private Button _stopBtn;
+        private Button _startBtn;
         private MainModel _mainModel;
         private Command _myCommand;
+        private Command _startCommand;
         private Position _position;
 
-        private Boolean _hasLoadedPosition = false;
-        private Boolean _loadingPosition = true;
+        private IGeolocator _geoLocator;
 
         public GeolocatorPageViewModel()
         {
-            var geoLocator = Resolver.Resolve<IGeolocator>();
+            _geoLocator = Resolver.Resolve<IGeolocator>();
             
             //var locator = CrossGeolocator.Current;
-            geoLocator.DesiredAccuracy = 50;
-            geoLocator.StartListening(1000, 0);
-            geoLocator.PositionChanged += (sender, args) =>
+            _geoLocator.DesiredAccuracy = 10;
+            _geoLocator.StartListening(1000, 0);
+            _geoLocator.PositionChanged += (sender, args) =>
             {
                 var positionArgs = (PositionEventArgs) args;
                 DisplayMainModel.Latitude = "Latitude: " + positionArgs.Position.Latitude.ToString();
                 DisplayMainModel.Longitude = "Longitude: " + positionArgs.Position.Longitude.ToString();
-                DisplayMainModel.Timestamp = positionArgs.Position.Timestamp.ToString("dd/MM/yyyy HH:mm:ss");
+                DisplayMainModel.Timestamp = positionArgs.Position.Timestamp.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss");
 
             };
             //get position async
             //_position = await locator.GetPositionAsync(timeout: 10000);
-            geoLocator.GetPositionAsync(10000).ContinueWith(task =>
+            _geoLocator.GetPositionAsync(5000).ContinueWith(task =>
             {
                 var position = task.Result;
                 Debug.WriteLine(position.Latitude);
                 Debug.WriteLine(position.Longitude);
-                _loadingPosition = false;
-                _hasLoadedPosition = true;
 
                 DisplayMainModel = new MainModel
                 {
                     Title = "Hello world!",
                     Latitude = "Latitude: " + position.Latitude.ToString(),
                     Longitude = "Longitude: " + position.Longitude.ToString(),
-                    Timestamp = position.Timestamp.ToString("dd/MM/yyyy HH:mm:ss")
+                    Timestamp = position.Timestamp.ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss")
                 };
             });
 
-            MyCommand = new Command(UpdatePosition);
+            MyCommand = new Command(StopTracking);
+            StartCommand = new Command(StartTracking);
 
-            BtnButton = new Button
+            StopBtnButton = new Button
             {
-                Text = "Click"
+                Text = "Stop Tracking"
+            };
+            StartBtnButton = new Button
+            {
+                Text = "Start tracking"
             };
         }
 
@@ -69,16 +73,22 @@ namespace HelloWorld.ViewModel
                 return _mainModel ?? (_mainModel = new MainModel
                 {
                     //if null set title to error
-                    Title = "error"
+                    Title = "Main model is null"
                 });
             }
             set { SetProperty(ref _mainModel, value); }
         }
 
-        public Button BtnButton
+        public Button StopBtnButton
         {
-            get { return _btn; }
-            set { SetProperty(ref _btn, value); }
+            get { return _stopBtn; }
+            set { SetProperty(ref _stopBtn, value); }
+        }
+
+        public Button StartBtnButton
+        {
+            get { return _startBtn; }
+            set { SetProperty(ref _startBtn, value); }
         }
 
         public Command MyCommand
@@ -87,9 +97,28 @@ namespace HelloWorld.ViewModel
             set { SetProperty(ref _myCommand, value); }
         }
 
-        public void UpdatePosition()
+        public Command StartCommand
         {
-            //BtnButton.Text = "Button Clicked! ";
+            get { return _startCommand; }
+            set { SetProperty(ref _startCommand, value); }
+
+        }
+        public void StopTracking()
+        {
+            _geoLocator.StopListening();
+            StopBtnButton.Text = "Stopped tracking";
+        }
+
+        public void StartTracking()
+        {
+            _geoLocator.StartListening(1000,0);
+            StopBtnButton.Text = "Stop tracking";
+        }
+
+        public IGeolocator Geolocator
+        {
+            get { return _geoLocator;}
+            set { SetProperty(ref _geoLocator, value); }
         }
 
         public Position Position
@@ -97,18 +126,6 @@ namespace HelloWorld.ViewModel
             get { return _position ?? (_position = new Position()); }
             set { SetProperty(ref _position, value); }
 
-        }
-
-        public Boolean HasLoadedPosition
-        {
-            get { return _hasLoadedPosition; }
-            set { SetProperty(ref _hasLoadedPosition, value); }
-        }
-
-        public Boolean LoadingPosition
-        {
-            get { return _loadingPosition; }
-            set { SetProperty(ref _loadingPosition, value); }
         }
     }
 }
