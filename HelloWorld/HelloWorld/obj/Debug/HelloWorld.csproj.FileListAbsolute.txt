@@ -44,7 +44,7 @@ C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.F
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.Ioc.xml
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.Platform.xml
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\bin\Debug\XLabs.Serialization.xml
+C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\obj\Debug\GeolocatorPage.xaml.g.cs
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\obj\Debug\HelloWorld.dll
 C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
-C:\Users\JoakimA\Documents\GitHub\Exjobb\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
